@@ -1,5 +1,12 @@
 # Terraform EKS
 
+## Environment variables
+
+- `GOOGLE_APPLICATION_CREDENTIALS`
+- `GOOGLE_PROJECT`
+- `GOOGLE_REGION`
+- `GOOGLE_ZONE`
+
 ## Role-based access control (RBAC)
 
 1. Create service account
@@ -21,7 +28,7 @@
 ## Security
 
 This command will start Tiller with both strong authentication over gRPC,
-and a service account to which RBAC policies have been applied
+and a service account to which RBAC policies have been applied.
 
 ```
 helm init \
